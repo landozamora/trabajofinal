@@ -1,0 +1,42 @@
+.container{
+	background-color:white;
+}
+
+.container-fluid{
+	background-color:white;
+	
+}
+
+.navbar{ 
+	&.navbar-default{
+	border-color:white;
+	}
+}
+
+.nav{
+	&.navbar-nav{
+		&.navbar-right{
+			&.active{
+				&.sr-only{
+					background-color:blue;
+				}
+			}
+
+		}
+
+	}
+}
+
+
+.col-md-12{
+	background:linear-gradient(180deg,#66a5ff,#0069ff);
+}
+
+.titulo{
+	font-size:36px;
+	color:white;
+}
+
+.gif{
+	position: relative;
+}
