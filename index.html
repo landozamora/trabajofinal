@@ -9,7 +9,7 @@
 
 <body>
   <div class="container">
-  <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -62,23 +62,74 @@
       </nav>
   </div>
 
-  <div class="container-form">
       <!-- Example row of columns -->
-      <div class="col-md-12">
-          <div class="col-md-6">
-              <div class="titulo">
-              <h1><p>Cloud computing,</p>
-              <p>designed for developers.</p>
-              </div>
-          </div>
-          <div class="col-md-6">
-              <div class="gif">    
-                  <figure>
+      <div class="header-container">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="titulo">
+                    <h1>
+                        <p>Cloud computing,</p>
+                        <p>designed for developers.</p>
+                    </h1>
+                </div>
+                <form class=" form-signin form-crearCuenta">
+                    <label for="inputEmail" class="sr-only">Email Address</label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email Address" required="" autofocus="">
+                    <label for="inputPassword" class="sr-only">Password</label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                    <button class="btn btn-lg btn-primary btn-block btn-crear" type="submit">Create an Account</button>
+                </form>
+                <p>By signing up, you agree to the Terms of Service.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="img-header">
                     <img src="img/create.gif">
-                  </figure>
-              </div>    
-          </div>     
-      </div>
+                </div>
+            </div>    
+        </div> 
+    </div>
+    </div>    
   </div>
-        
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+      	<div class="titulo-servicios">
+      		<h2>Seamlessly manage your infrastructure</h2>
+      	</div>
+      	<div class="margen-arriba">
+	        <div class="col-md-4">
+	          
+	          <div class="deploy">
+	          	<div class="deploy-img">
+	          		<figure>
+	          			<img src="img/deploy-in-seconds-a5f58113.svg">
+	          		</figure>
+	          	</div>
+	          </div>
+	          
+	          <h2>E-Commerce</h2>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. </p>
+	        </div>
+	        <div class="col-md-4">
+
+	          <div class="circulo">
+	          	<div class="glyphicon glyphicon-phone simbolo"></div>
+	          </div>
+
+	          <h2>Responsive Design</h2>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+	       </div>
+	        <div class="col-md-4">
+
+	          <div class="circulo">
+	          	<div class="glyphicon glyphicon-thumbs-down simbolo"></div>
+	          </div>
+
+	          <h2>Web Security</h2>
+	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+	        </div>
+	    </div>    
+     </div>
+</div>        
 </body>
